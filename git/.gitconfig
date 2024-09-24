@@ -1,0 +1,20 @@
+[user]
+	email = s.haydushki@gmail.com
+	name = Stoyan Haydushki
+[core]
+	editor = vim
+[alias]
+        log-time-summary = log --format=format:'%C(bold blue)%h%C(reset) %C(bold red)%d%C(reset) %C(green)by %an, %ar%C(reset)'
+        co = checkout
+        br = branch -av
+        ci = commit
+        st = status
+        head = log --decorate -1 HEAD
+        h = log --oneline --decorate -1 HEAD
+        visual = !gitk
+        l = log --oneline --decorate
+        lf = log --oneline --first-parent
+        ll = log --oneline --decorate --graph
+        lln = log --oneline --decorate --graph -10
+        m = merge -e --lo
+
