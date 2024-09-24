@@ -1,0 +1,9 @@
+# Set up different keys for personal and uni Github
+Host CaptainUltra
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/githubPersonal
+Host haydushki-fmi
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/githubUni
